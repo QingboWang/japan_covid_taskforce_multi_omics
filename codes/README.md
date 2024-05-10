@@ -1,4 +1,4 @@
-## Analysis
+## analysis
 Codes relevant to the main analysis results are in this `Analysis` directory.
 - `ukb_replication.py` was used for replication of our pQTL results in light with UKB-PPP data (Fig. 1)
 - `pqtl_analysis_and_plots.py` was used for pQTL analysis (Fig. 1, 2)
@@ -11,7 +11,7 @@ Codes relevant to the main analysis results are in this `Analysis` directory.
 - `mpra_plots.py` was used for analysis of MPRA results (Ext. Fig. 2)
 
 
-## Supple
+## supple
 Codes relevant to the supplementary data are in this `Supple` directory.
 - `susie_coloc.py` was used for colocalization analysis using the SuSiE-coloc framework
 - `sqtl_call.sh` and `sqtl_analysis.py` were used for sQTL analysis
