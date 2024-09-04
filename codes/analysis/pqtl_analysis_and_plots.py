@@ -1522,7 +1522,7 @@ tb2 = pd.read_csv("/Users/qingbowang/Desktop/taskforce_n1102/n1300/basic_stats/e
 tb3 = pd.read_csv("/Users/qingbowang/Desktop/taskforce_n1102/n1300/basic_stats/aa_pip01_annots_updated.tsv", sep="\t", index_col=0)
 tb1.columns = np.arange(0.1, 1.1, 0.1)
 tb2.columns = np.arange(0.1, 1.1, 0.1)
-tb3.columns = np.arange(0.1, 1.1, 0.1) #nazoの丸めerror..
+tb3.columns = np.arange(0.1, 1.1, 0.1) 
 tb1 = tb1.iloc[[6,1,5,3,4,2,0],:]
 tb2 = tb2.iloc[[6,1,5,3,4,2,0],:]
 tb3 = tb3.iloc[[6,1,5,3,4,2,0],:]
@@ -1572,7 +1572,7 @@ tb2 = pd.read_csv("/Users/qingbowang/Desktop/taskforce_n1102/n1300/basic_stats/e
 tb3 = pd.read_csv("/Users/qingbowang/Desktop/taskforce_n1102/n1300/basic_stats/aa_pip01_annots_nc.tsv", sep="\t", index_col=0)
 tb1.columns = np.arange(0.1, 1.1, 0.1)
 tb2.columns = np.arange(0.1, 1.1, 0.1)
-tb3.columns = np.arange(0.1, 1.1, 0.1) #nazoの丸めerror..
+tb3.columns = np.arange(0.1, 1.1, 0.1) 
 tb1 = tb1.iloc[[4,2,3,1,0],:]
 tb2 = tb2.iloc[[4,2,3,1,0],:]
 tb3 = tb3.iloc[[4,2,3,1,0],:]
@@ -1614,7 +1614,6 @@ ax[1].set_xticklabels(np.round(tb1.columns,2))
 plt.savefig('/Users/qingbowang/Desktop/taskforce_n1102/plots/pqtl_vep_vs_aa_and_ea_noncoding.png', bbox_inches='tight', dpi=500)
 plt.savefig('/Users/qingbowang/Desktop/taskforce_n1102/plots/pqtl_pip_vs_aa_and_ea_noncoding.pdf', bbox_inches='tight', dpi=500)
 plt.clf()
-#ギリ優れているという理解でOKか。。？
 
 #focusing on non-coding and synonymous:
 tb1 = pd.read_csv("/Users/qingbowang/Desktop/taskforce_n1102/n1300/basic_stats/jctf_pip01_annots_nonseqchange.tsv", sep="\t", index_col=0)
@@ -1622,7 +1621,7 @@ tb2 = pd.read_csv("/Users/qingbowang/Desktop/taskforce_n1102/n1300/basic_stats/e
 tb3 = pd.read_csv("/Users/qingbowang/Desktop/taskforce_n1102/n1300/basic_stats/aa_pip01_annots_nonseqchange.tsv", sep="\t", index_col=0)
 tb1.columns = np.arange(0.1, 1.1, 0.1)
 tb2.columns = np.arange(0.1, 1.1, 0.1)
-tb3.columns = np.arange(0.1, 1.1, 0.1) #nazoの丸めerror..
+tb3.columns = np.arange(0.1, 1.1, 0.1)
 tb1 = tb1.iloc[[4,2,3,1,5,0],:]
 tb2 = tb2.iloc[[4,2,3,1,5,0],:]
 tb3 = tb3.iloc[[4,2,3,1,5,0],:]
